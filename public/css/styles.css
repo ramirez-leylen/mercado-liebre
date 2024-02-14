@@ -1,0 +1,110 @@
+/* 
+Verde: #39b54a; */
+/* 
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px */
+
+body {
+    background-color: #EAC926;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    padding: 10px;
+}
+
+.header__logo {
+    width: 50%;
+}
+
+.header__buscador {
+    display: block;
+}
+
+.header__text--center {
+    text-align: center;
+}
+
+.nav__item {
+    list-style-type: none;
+}
+
+.nav__link {
+    color: black;
+    text-decoration: none;
+}
+
+.header__menu {
+    background-color: #1259c3;
+    text-align: center;
+    width: 20px;
+    margin: 0 auto;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main__banner {
+    width: 100%;
+}
+
+
+.main__img {
+    width: 80%;
+}
+
+.main__texto--left {
+    text-align: left;
+}
+
+.main__precio {
+    font-size: 18px;
+}
+
+.main__descuento {
+    font-size: 16px;
+}
+
+.main__titulo {
+    font-size: 24px;
+}
+
+.main__nombre-articulo {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer__icon {
+    color: #1259c3;
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+.footer__titles {
+    margin: 8px;
+    color: #222;
+}
+
+.footer__text {
+    font-size: 12px;
+    color: #666;
+    margin: 5px;
+}
+
+.footer__copyright {
+    font-size: 10px;
+    text-align: left;
+    margin-top: 30px;
+}
