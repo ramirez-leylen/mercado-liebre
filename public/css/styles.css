@@ -4,8 +4,8 @@
     --color-crema: #ebebeb;
     --color-azul: #1259c3;
     --color-verde: green;
-    --color-gris: #222;
-    --color-gris-claro: #666;
+    --color-gris: #493e3e;
+    --color-gris-claro: #968383;
 }
 * {
     box-sizing: border-box;
@@ -83,22 +83,28 @@ body {
 .art__logo-envio {
     color: var(--color-verde);
     font-size: 1.2rem;
+    margin: 10px 0;
 }
 .art__precio {
+    color: var(--color-gris);
     font-size: 1.1rem;
+    font-weight: bold;
 }
 .art__descuento {
     color: var(--color-verde);
     font-size: 1rem;
 }
 .art__nombre-articulo {
-    font-size: 1.3rem;
+    color: var(--color-gris-claro);
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 1rem;
 }
 
 
 
 .footer {
-    background-color: white;
+    background-color: var(--color-blanco);
     text-align: center;
     padding: 25px;
 }
