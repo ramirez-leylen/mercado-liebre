@@ -53,25 +53,27 @@ body {
 .main__banner {
     width: 100%;
 }
+.main__titulo {
+    font-size: 24px;
+}
 
 
-
+.art {
+    margin-bottom: 10px;
+}
 .art__img {
     width: 80%;
 }
-.art__texto--left {
-    text-align: left;
-}
 .art__precio {
+    text-align: left;
     font-size: 18px;
 }
 .art__descuento {
+    text-align: left;
     font-size: 16px;
 }
-.art__titulo {
-    font-size: 24px;
-}
 .art__nombre-articulo {
+    text-align: left;
     font-size: 20px;
 }
 
