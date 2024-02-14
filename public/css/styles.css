@@ -1,17 +1,27 @@
+:root {
+    --color-blanco: white;
+    --color-amarillo: #EAC926;
+    --color-crema: #ebebeb;
+    --color-azul: #1259c3;
+    --color-verde: green;
+    --color-gris: #222;
+    --color-gris-claro: #666;
+}
 * {
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
 }
 body {
-    background-color: #EAC926;
-    font-size: 12px;
-    font-family: Roboto, sans-serif;
+    
+    background-color: var(--color-crema);
 }
 
 
 
 .header {
+    background-color: var(--color-amarillo);
     padding: 10px;
 }
 .header__logo {
@@ -24,12 +34,12 @@ body {
     text-align: center;
 }
 .header__menu {
-    background-color: #1259c3;
+    background-color: var(--color-azul);
     text-align: center;
     margin: 0 auto;
     width: 10vw;
     padding: 10px 0;
-    color: white;
+    color: var(--color-blanco);
     border-radius: 5px;
 }
 
@@ -60,24 +70,25 @@ body {
 
 .art {
     margin-bottom: 10px;
-    background-color: white;
+    background-color: var(--color-blanco);
 }
 .art__img {
-    width: 80%;
+    width: 100%;
 }
 .art__descripcion {
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid var(--color-crema);
     padding: 15px;
     text-align: left;
 }
 .art__logo-envio {
-    color: green;
+    color: var(--color-verde);
     font-size: 1.2rem;
 }
 .art__precio {
     font-size: 1.1rem;
 }
 .art__descuento {
+    color: var(--color-verde);
     font-size: 1rem;
 }
 .art__nombre-articulo {
@@ -93,19 +104,19 @@ body {
 }
 
 .footer__icon {
-    color: #1259c3;
+    color: var(--color-azul);
     font-size: 4em;
     margin-top: 20px;
 }
 
 .footer__titles {
     margin: 8px;
-    color: #222;
+    color: var(--color-gris);
 }
 
 .footer__text {
     font-size: 12px;
-    color: #666;
+    color: var(--color-gris-claro);
     margin: 5px;
 }
 
