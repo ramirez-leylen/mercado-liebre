@@ -2,10 +2,11 @@
     --color-blanco: white;
     --color-amarillo: #EAC926;
     --color-crema: #ebebeb;
-    --color-azul: #1259c3;
-    --color-verde: green;
-    --color-gris: #493e3e;
-    --color-gris-claro: #968383;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-verde: #39b54a;
+    --color-gris: #666666;
+    --color-gris-claro: #ebebeb;
 }
 * {
     box-sizing: border-box;
@@ -15,20 +16,29 @@
 }
 body {
     background-color: var(--color-crema);
-    
 }
 
 
 
 .header {
     background-color: var(--color-amarillo);
-    padding: 10px;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .header__logo {
-    width: 50%;
+    width: 120px;
 }
 .header__buscador {
-    display: block;
+    display: inline;
+    max-width: 160px;
+    height: 35px;
+    margin: 0;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--color-gris);
 }
 .header__text--center {
     text-align: center;
@@ -91,7 +101,7 @@ body {
 .art__precio {
     color: var(--color-gris);
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 .art__descuento {
     color: var(--color-verde);
@@ -99,7 +109,7 @@ body {
 }
 .art__nombre-articulo {
     color: var(--color-gris-claro);
-    font-weight: normal;
+    font-weight: 300;
     margin-top: 20px;
     font-size: 1rem;
     display: none;
