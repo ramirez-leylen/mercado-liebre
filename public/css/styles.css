@@ -86,6 +86,11 @@ body {
     margin-bottom: 10px;
     background-color: var(--color-blanco);
 }
+.section__articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .art__img {
     width: 100%;
 }
@@ -176,8 +181,13 @@ body {
     .header__menu {
         display: none;
     }
+
     .nav {
         display: flex;
+    }
+    .art {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 45%;
     }
     .art__nombre-articulo {
         display: block;
@@ -193,4 +203,8 @@ body {
     .nav__item {
         margin: 0 10px;
     }
-}
+
+    .art {
+        width: 22%;
+    }
+}   
