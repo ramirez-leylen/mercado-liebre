@@ -1,3 +1,11 @@
+.header {
+    text-align: left;
+    padding: 12px;
+}
+
+.formulario__cabecera {
+    margin-bottom: 20px;
+}
 .formulario {
     display: flex;
     flex-direction: column;
