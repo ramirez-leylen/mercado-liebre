@@ -16,34 +16,34 @@
         </header>
 
         <main class="main">
-            <form action="" method="post">
+            <form action="" method="post" class="formulario">
                 <label>
-                    Nombre y apellido 
-                    <input type="text" name="nombre"> <br>
+                    Nombre y apellido <br>
+                    <input type="text" name="nombre" class="formulario__texto" placeholder="Nombre y apellido">
                 </label>
 
                 <label>
-                    Nombre de usuario
-                    <input type="text" name="usuario"> <br>
+                    Nombre de usuario<br>
+                    <input type="text" name="usuario" class="formulario__texto" placeholder="Nombre de usuario">
                 </label>
 
                 <label>
-                    Email
-                    <input type="email" name="email"> <br>
+                    Email<br>
+                    <input type="email" name="email" class="formulario__texto" placeholder="Email">
                 </label>
 
                 <label>
-                    Fecha de nacimiento
-                    <input type="date" name="fechaDeNacimiento"> <br>
+                    Fecha de nacimiento<br>
+                    <input type="date" name="fechaDeNacimiento">
                 </label>
 
                 <label>
-                    Domicilio
-                    <input type="text" name="domicilio"> <br>
+                    Domicilio<br>
+                    <input type="text" name="domicilio" class="formulario__texto" placeholder="Domicilio">
                 </label>
 
                 <label>
-                    Perfil de usuario
+                    Perfil de usuario<br>
                     <label>
                         <input type="radio" name="perfilDeUsuario" value="comprador">
                         Comprador
@@ -52,47 +52,46 @@
                         <input type="radio" name="perfilDeUsuario" value="vendedor">
                         Vendedor
                     </label>
-                </label> <br>
-
-                <label>
-                    Categorias de interes
-                    <br>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="electro">
-                        Electro
-                    </label> <br>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="moda">
-                        Moda
-                    </label> <br>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="hogar">
-                        Hogar
-                    </label> <br>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="jugueteria">
-                        Jugueteria
-                    </label> <br>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="vidaSana">
-                        Vida sana
-                    </label> <br>
                 </label>
 
                 <label>
-                    Foto de usuario
+                    Categorias de interes<br>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="electro">
+                        Electro<br>
+                    </label>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="moda">
+                        Moda<br>
+                    </label>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="hogar">
+                        Hogar<br>
+                    </label>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="jugueteria">
+                        Jugueteria<br>
+                    </label>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="vidaSana">
+                        Vida sana<br>
+                    </label>
+                </label>
+
+                <label>
+                    Foto de usuario<br>
                     <input type="file" name="fotoDeUsuario">
-                </label> <br>
+                </label>
 
                 <label>
-                    Contrasena
-                    <input type="password" name="contrasena">
-                </label> <br>
+                    Contrasena<br>
+                    <input type="password" name="contrasena" class="formulario__texto" placeholder="Contrasena">
+                </label>
 
                 <label>
-                    Confirmar contrasena
-                    <input type="password" name="contrasena">
-                </label> <br>
+                    Confirmar contrasena<br>
+                    <input type="password" name="contrasena" class="formulario__texto" placeholder="Contrasena">
+                </label>
 
                 <button type="reset">Cancelar</button>
                 <button type="submit">Enviar</button>
