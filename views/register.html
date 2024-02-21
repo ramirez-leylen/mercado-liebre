@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/register.css">
+        <script src="https://kit.fontawesome.com/a1a418fc9c.js" crossorigin="anonymous"></script>
+        
+        <title>Registro de Usuario</title>
+    </head>
+
+    <body>
+        <header class="header">
+        </header>
+
+        <main class="main">
+            <form action="" method="post">
+                <label>
+                    Nombre y apellido 
+                    <input type="text" name="nombre"> <br>
+                </label>
+
+                <label>
+                    Nombre de usuario
+                    <input type="text" name="usuario"> <br>
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" name="email"> <br>
+                </label>
+
+                <label>
+                    Fecha de nacimiento
+                    <input type="date" name="fechaDeNacimiento"> <br>
+                </label>
+
+                <label>
+                    Domicilio
+                    <input type="text" name="domicilio"> <br>
+                </label>
+
+                <label>
+                    Perfil de usuario
+                    <label>
+                        <input type="radio" name="perfilDeUsuario" value="comprador">
+                        Comprador
+                    </label>
+                    <label>
+                        <input type="radio" name="perfilDeUsuario" value="vendedor">
+                        Vendedor
+                    </label>
+                </label> <br>
+
+                <label>
+                    Categorias de interes
+                    <br>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="electro">
+                        Electro
+                    </label> <br>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="moda">
+                        Moda
+                    </label> <br>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="hogar">
+                        Hogar
+                    </label> <br>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="jugueteria">
+                        Jugueteria
+                    </label> <br>
+                    <label> 
+                        <input type="checkbox" name="categoriasDeInteres" value="vidaSana">
+                        Vida sana
+                    </label> <br>
+                </label>
+
+                <label>
+                    Foto de usuario
+                    <input type="file" name="fotoDeUsuario">
+                </label> <br>
+
+                <label>
+                    Contrasena
+                    <input type="password" name="contrasena">
+                </label> <br>
+
+                <label>
+                    Confirmar contrasena
+                    <input type="password" name="contrasena">
+                </label> <br>
+
+                <button type="reset">Cancelar</button>
+                <button type="submit">Enviar</button>
+
+            </form>
+        </main>
+
+        <!-- <footer class="footer">
+        </footer> -->
+    </body>
+
+</html>
