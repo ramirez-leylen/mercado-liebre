@@ -4,9 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/index.css">
+        <!-- ICONOS -->
         <script src="https://kit.fontawesome.com/a1a418fc9c.js" crossorigin="anonymous"></script>
-        
+        <!-- FUENTES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
         <title>Mercado Liebre</title>
     </head>
 
@@ -15,8 +20,11 @@
             
             <img class="header__logo" src="/images/logo-mercado-liebre.svg" alt="Logo de Mercado Libre">
             
-            <input class="header__buscador" type="text" value="Buscar productos, marcas">
-            
+            <form action="/" method="get" class="header__buscador">
+                <input class="buscador__input-texto" type="text" placeholder="Buscar productos, marcas" name="terminosDeBusqueda">
+                <button class="buscador__boton-busqueda" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
             <p class="header__texto">
                 <i class="fas fa-hand-holding-usd"></i>
                 Comprá en cuotas y sin tarjeta de crédito
@@ -32,10 +40,10 @@
                     <li class="nav__item"><a class="nav__link" href="">Tiendas Oficiales</a></li>
                     <li class="nav__item"><a class="nav__link" href="">Vender</a></li>
                     <li class="nav__item"><a class="nav__link" href="">Ayuda</a></li>
-                </ul class="nav__list">
-                <ul>
-                    <li class="nav__item"><a class="nav__link" href="">Creá tu cuenta<i class="fas fa-user"></i></a></li>
-                    <li class="nav__item"><a class="nav__link" href="">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+                </ul>
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="/registro">Creá tu cuenta<i class="fas fa-user"></i></a></li>
+                    <li class="nav__item"><a class="nav__link" href="/inicio-de-sesion">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
                     <li class="nav__item"><a class="nav__link" href="">Mis compras<i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
@@ -54,7 +62,6 @@
                         <p class="art__precio">$6.770</p>
                         <p class="art__descuento">40% OFF</p>
                         <h3 class="art__nombre-articulo">Cafetera Moulinex</h3> 
-                        
                     </div>   
                 </article>
                 
