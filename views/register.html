@@ -17,84 +17,89 @@
 
         <main class="main">
             <form action="" method="post" class="formulario">
-                <label>
+                <label class="formulario__label">
                     Nombre y apellido <br>
-                    <input type="text" name="nombre" class="formulario__texto" placeholder="Nombre y apellido">
+                    <input type="text" name="nombre" class="formulario__input-texto" placeholder="Nombre y apellido" required>
                 </label>
 
-                <label>
+                <label class="formulario__label">
                     Nombre de usuario<br>
-                    <input type="text" name="usuario" class="formulario__texto" placeholder="Nombre de usuario">
+                    <input type="text" name="usuario" class="formulario__input-texto" placeholder="Nombre de usuario" required>
                 </label>
 
-                <label>
+                <label class="formulario__label">
                     Email<br>
-                    <input type="email" name="email" class="formulario__texto" placeholder="Email">
+                    <input type="email" name="email" class="formulario__input-texto" placeholder="Email" required>
                 </label>
 
-                <label>
+                <label class="formulario__label">
                     Fecha de nacimiento<br>
-                    <input type="date" name="fechaDeNacimiento">
+                    <input type="date" name="fechaDeNacimiento" required>
                 </label>
 
-                <label>
+                <label class="formulario__label">
                     Domicilio<br>
-                    <input type="text" name="domicilio" class="formulario__texto" placeholder="Domicilio">
+                    <input type="text" name="domicilio" class="formulario__input-texto" placeholder="Domicilio" required>
                 </label>
 
-                <label>
+                <label class="formulario__label">
                     Perfil de usuario<br>
-                    <label>
-                        <input type="radio" name="perfilDeUsuario" value="comprador">
+
+                    <label class="formulario__label--normal">
+                        <input type="radio" name="perfilDeUsuario" value="comprador" required>
                         Comprador
                     </label>
-                    <label>
-                        <input type="radio" name="perfilDeUsuario" value="vendedor">
+
+                    <label class="formulario__label--normal">
+                        <input type="radio" name="perfilDeUsuario" value="vendedor" required>
                         Vendedor
                     </label>
+                        
                 </label>
 
-                <label>
+                <label class="formulario__label">
                     Categorias de interes<br>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="electro">
+                    <label class="formulario__label--normal"> 
+                        <input class="formulario__input-checkbox" type="checkbox" name="categoriasDeInteres" value="electro">
                         Electro<br>
                     </label>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="moda">
+                    <label class="formulario__label--normal"> 
+                        <input class="formulario__input-checkbox" type="checkbox" name="categoriasDeInteres" value="moda">
                         Moda<br>
                     </label>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="hogar">
+                    <label class="formulario__label--normal"> 
+                        <input class="formulario__input-checkbox" type="checkbox" name="categoriasDeInteres" value="hogar">
                         Hogar<br>
                     </label>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="jugueteria">
+                    <label class="formulario__label--normal"> 
+                        <input class="formulario__input-checkbox" type="checkbox" name="categoriasDeInteres" value="jugueteria">
                         Jugueteria<br>
                     </label>
-                    <label> 
-                        <input type="checkbox" name="categoriasDeInteres" value="vidaSana">
+                    <label class="formulario__label--normal"> 
+                        <input class="formulario__input-checkbox" type="checkbox" name="categoriasDeInteres" value="vidaSana">
                         Vida sana<br>
                     </label>
                 </label>
 
-                <label>
+                <label class="formulario__label">
                     Foto de usuario<br>
                     <input type="file" name="fotoDeUsuario">
                 </label>
 
-                <label>
+                <label class="formulario__label">
                     Contrasena<br>
-                    <input type="password" name="contrasena" class="formulario__texto" placeholder="Contrasena">
+                    <input type="password" name="contrasena" class="formulario__input-texto" placeholder="Contrasena" required>
                 </label>
 
-                <label>
+                <label class="formulario__label">
                     Confirmar contrasena<br>
-                    <input type="password" name="contrasena" class="formulario__texto" placeholder="Contrasena">
+                    <input type="password" name="contrasena" class="formulario__input-texto" placeholder="Contrasena" required>
                 </label>
 
-                <button type="reset">Cancelar</button>
-                <button type="submit">Enviar</button>
+                <div class="formulario__botones">
+                    <button class="formulario__boton" type="reset">Cancelar</button>
+                    <button class="formulario__boton" type="submit">Enviar</button>
+                </div>  
 
             </form>
         </main>
