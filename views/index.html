@@ -20,8 +20,11 @@
             
             <img class="header__logo" src="/images/logo-mercado-liebre.svg" alt="Logo de Mercado Libre">
             
-            <input class="header__buscador" type="text" value="Buscar productos, marcas">
-            
+            <form action="/" method="get" class="header__buscador">
+                <input class="buscador__input-texto" type="text" placeholder="Buscar productos, marcas" name="terminosDeBusqueda">
+                <button class="buscador__boton-busqueda" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
             <p class="header__texto">
                 <i class="fas fa-hand-holding-usd"></i>
                 Comprá en cuotas y sin tarjeta de crédito
