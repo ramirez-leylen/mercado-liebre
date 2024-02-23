@@ -96,6 +96,12 @@ body {
     margin-bottom: 10px;
     background-color: var(--color-blanco);
 }
+.art:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.art:hover .art__nombre-articulo{
+    display: block;
+}
 .section__articulos {
     display: flex;
     flex-wrap: wrap;
@@ -117,11 +123,16 @@ body {
     width: 30px;
     height: 30px;
     border: 1px solid #39b54a;
+    color: #39b54a;
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
     right: 20px;
     top: -15px;
+}
+.art__logo-envio:hover {
+    transform: rotate(-90deg);
+    transition: all 500ms;
 }
 .art__precio {
     color: var(--color-gris);
@@ -197,11 +208,11 @@ body {
         display: flex;
     }
     .art {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
         width: 45%;
     }
     .art__nombre-articulo {
-        display: block;
+        /* display: block; */
     }
 }
 @media (min-width: 1200px){
