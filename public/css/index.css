@@ -161,10 +161,18 @@ body {
     text-align: center;
     padding: 25px;
 }
+.footer__flex {
+    display: flex;
+    flex-direction: column;
+}
 .footer__icon {
     color: var(--color-azul);
     font-size: 4em;
     margin-top: 20px;
+}
+.footer__icon:hover {
+    color: #4992ff;
+    transition: all 400ms;
 }
 .footer__titles {
     margin: 8px;
@@ -179,6 +187,7 @@ body {
     font-size: 10px;
     text-align: left;
     margin-top: 30px;
+    width: 100%;
 }
 
 
@@ -228,5 +237,9 @@ body {
 
     .art {
         width: 22%;
+    }
+
+    .footer__flex {
+        flex-direction: row;
     }
 }   
