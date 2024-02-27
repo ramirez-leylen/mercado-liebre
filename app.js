@@ -18,4 +18,6 @@ app.get("/inicio-de-sesion", (req,res) => {
 })
 
 
-app.listen(3000, () => console.log("servidor corriendo en el puerto 3000"));
+// app.listen(3000, () => console.log("servidor corriendo en el puerto 3000"));
+const port = process.env.PORT || 3001;
+app.listen(port, () => console.log(`Servidor corriendo en el puerto ${port}`));
